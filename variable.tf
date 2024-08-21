@@ -34,8 +34,3 @@ variable "public_subnet" {
     },
   }
 }
-
-variable "public-subnet_name" {
-  type    = list(string)
-  default = ["public subnet 1", "public subnet 2", "public subnet 3"]
-}
